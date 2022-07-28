@@ -1,5 +1,9 @@
 name: 'list-yml-keys-action'
 description: 'Action to map yml keys to array'
+branding:
+  icon: align-center
+  color: yellow
+
 inputs:
   file:
     description: 'YAML file to read from'
