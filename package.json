@@ -1,0 +1,26 @@
+{
+  "name": "list-yml-keys",
+  "version": "1.0.0",
+  "description": "Action to map yml keys to array",
+  "main": "index.js",
+  "scripts": {
+    "build": "ncc build src/index.js --license LICENSE"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rmakovyak/list-yml-keys-action.git"
+  },
+  "keywords": [],
+  "author": "Roman Makovyak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rmakovyak/list-yml-keys-action/issues"
+  },
+  "homepage": "https://github.com/rmakovyak/list-yml-keys-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.9.0",
+    "@actions/github": "^5.0.3",
+    "@vercel/ncc": "^0.34.0",
+    "js-yaml": "^4.1.0"
+  }
+}

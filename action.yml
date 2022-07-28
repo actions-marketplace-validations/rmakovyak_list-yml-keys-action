@@ -1,0 +1,16 @@
+name: 'list-yml-keys-action'
+description: 'Action to map yml keys to array'
+inputs:
+  file:
+    description: 'YAML file to read from'
+    required: true
+
+  key-path:
+    description: 'List of keys to follow'
+    required: true
+outputs:
+  data:
+    description: 'Keys from YAML file'
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
